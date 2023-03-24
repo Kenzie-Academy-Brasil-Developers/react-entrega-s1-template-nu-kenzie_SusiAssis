@@ -9,7 +9,7 @@ import TotalMoney from './components/TotalMoney/TotalMoney'
 
 function App() {
   const [listTransactions, setListTransactions] = useState([])
-console.log(listTransactions)
+
 
 const removeTransactions = (transactionsId) => {
 const newListTransactions = listTransactions.filter(transactions => transactions.id !== transactionsId);

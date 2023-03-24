@@ -2,7 +2,6 @@ import styles from "./style.module.css"
 
 const CardList = ({description , declaredValue , valueType , removeTransactions, id})=>{
    
-    console.log(removeTransactions)
 
     return(
         <li className={valueType == "Entrada" ? styles.Cards : styles.Cardsnone }>

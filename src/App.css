@@ -9,19 +9,19 @@ ul {
 
 .resumo{
     margin: 1.5em auto;
-    max-width: 90%;
+    max-width: 88%;
     font-size: 1em;
 }
 
 .lançamento{
     margin: 1.5em auto;
-    max-width: 90%;
+    width: 88%;
     font-size: 1.2em;
 }
 
 @media (min-width: 1000px){
+
     .contanier{
-        
         margin: 0 auto;
         width: 100%;
         display: flex;

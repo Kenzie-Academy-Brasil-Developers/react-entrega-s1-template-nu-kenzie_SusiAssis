@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'inter', sans-serif;
+}
+
+button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+ul{
+    list-style: none;
+}
