@@ -1,0 +1,33 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2em 1em;
+    gap: 1em;
+    border: 1px solid #E9ECEF;
+    margin-top: 1em;
+}
+
+.total h2 {
+    font-size: 1em;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total span{
+ color: #FD377E;
+}
+
+.total p {
+font-size: 12px;
+}
+
+@media (min-width: 1000px){
+    .total{
+        width: 90%;
+        padding: 1.5em 1em;
+    }
+}

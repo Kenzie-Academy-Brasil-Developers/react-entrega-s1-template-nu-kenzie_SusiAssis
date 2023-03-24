@@ -1,0 +1,48 @@
+ul {
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.resumo{
+    margin: 1.5em auto;
+    max-width: 90%;
+    font-size: 1em;
+}
+
+.lançamento{
+    margin: 1.5em auto;
+    max-width: 90%;
+    font-size: 1.2em;
+}
+
+@media (min-width: 1000px){
+    .contanier{
+        
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        gap: 3em;
+        justify-content: center;
+    }
+
+    .contanier_form{
+      width:30%;
+    }
+
+    .contanier_list{
+        width: 40%;
+    }
+    
+    .resumo{
+        margin-top: 0;
+    }
+
+    ul{
+        max-width: 100%;
+    }
+    
+}

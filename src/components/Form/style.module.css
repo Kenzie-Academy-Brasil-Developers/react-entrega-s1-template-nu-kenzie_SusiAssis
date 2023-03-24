@@ -1,0 +1,54 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 1em;
+    gap: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.Form button{
+    background-color: #FD377E;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    width: 100%;
+    font-size: 1em;
+    font-weight:500;
+}
+
+.Form input{
+    background-color: #F8F9FA;
+    color: #868E96;
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    width: 96%;
+    padding-left: 1em;
+}
+
+.Form label {
+    font-size: 12px;
+    
+}
+
+.Form select{
+    background-color: #F8F9FA;
+    color: #343A40;
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    width: 100%;
+    padding-left: 1em;
+    font-size: 12px;
+}
+
+@media (min-width: 1000px){
+    .Form {
+        width: 90%;
+        padding: 2em 1em;
+    }
+}
