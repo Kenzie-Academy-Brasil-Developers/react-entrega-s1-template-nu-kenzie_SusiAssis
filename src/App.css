@@ -8,18 +8,34 @@ ul {
 }
 
 .resumo{
-    margin: 1.5em auto;
-    max-width: 88%;
+    margin: 0 auto;
+    width: 80%;
     font-size: 1em;
+    max-width: 320px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    
 }
 
 .lançamento{
-    margin: 1.5em auto;
-    width: 88%;
+    margin: 0 auto;
+    width: 80%;
     font-size: 1.2em;
+    max-width: 320px;
+    text-align: start;
 }
 
 @media (min-width: 1000px){
+    #root{
+     width: 100vw;
+     margin: 0 auto;
+    
+    }
+
+    .App{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
     .contanier{
         margin: 0 auto;
