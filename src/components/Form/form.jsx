@@ -24,7 +24,7 @@ const Form = ({listTransactions, setListTransactions})=>{
 
         transactions.description = ""
         transactions.declaredValue = ""
-        transactions.valueType = ""
+        
      }
     
     
