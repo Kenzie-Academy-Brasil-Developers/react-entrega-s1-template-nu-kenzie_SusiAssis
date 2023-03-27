@@ -5,6 +5,7 @@ ul {
     flex-direction: column;
     gap: 1em;
     padding-bottom: 1em;
+    max-width: 320px;
 }
 
 .resumo{

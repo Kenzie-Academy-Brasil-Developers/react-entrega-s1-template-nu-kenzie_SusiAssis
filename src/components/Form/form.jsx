@@ -17,10 +17,14 @@ const Form = ({listTransactions, setListTransactions})=>{
         const newObject = {
             ...transactions,
             "id":uuidv4(),
-            declaredValue: Number(transactions.declaredValue)
+            declaredValue:(transactions.declaredValue).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
         }
         
         setListTransactions([...listTransactions,newObject])
+
+        transactions.description = ""
+        transactions.declaredValue = ""
+        transactions.valueType = ""
      }
     
     
@@ -30,7 +34,7 @@ const Form = ({listTransactions, setListTransactions})=>{
             <input placeholder="Digite aqui sua descrição" value={transactions.description} onChange={(event)=> setTransactions({...transactions , description:event.target.value})}/>
 
             <label>Valor R$</label>
-            <input placeholder="1" value={transactions.declaredValue} onChange={(event)=> setTransactions({...transactions , declaredValue:event.target.value})}/>
+            <input placeholder="1" value={transactions.declaredValue} onChange={(event)=> setTransactions({...transactions , declaredValue:(event.target.value).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})})}/>
 
             <label>Tipo de valor</label>
             <select value={transactions.valueType} onChange={(event)=> setTransactions({...transactions , valueType: event.target.value})}>
