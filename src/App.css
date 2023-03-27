@@ -34,7 +34,7 @@ ul {
     }
 
     .App{
-        max-width: 1200px;
+        width:100vw;
         margin: 0 auto;
     }
 
@@ -44,6 +44,7 @@ ul {
         display: flex;
         gap: 3em;
         justify-content: center;
+        max-width: 1200px;
     }
 
     .contanier_form{

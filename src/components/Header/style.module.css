@@ -16,13 +16,16 @@
         margin: 0 auto;
         width: 100%;
         background-color: #F8F9FA;
-        max-width: 1200px;
+        display: inline-flex;
+        align-items: center;
         margin-bottom: 2em;
+        justify-content: center;
     }
 
     .img{
-        margin-left: 8.5em;
-        max-width: 1200px;
+        
+        max-width: 890px;
         width: 100%;
+        
     }
 }
